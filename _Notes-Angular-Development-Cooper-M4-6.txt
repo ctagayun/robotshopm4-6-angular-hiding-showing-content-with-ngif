@@ -127,12 +127,12 @@ Module 4: Using Angular Templates
             <div *ngIf="product.discount === 0">
             ${{product.price.toFixed(2)}}
           </div>
-          
+
            <div class="discount">
              ${{(product.price * (1- product.discount)).toFixed(2)}}
           </div>
-
-  - https://app.pluralsight.com/ilx/video-courses/d5d30ea4-0af1-447a-b13a-e60a095337a6/4623aa46-bc16-4394-b680-a6c9ce70f48e/a7f248ae-d3f0-46f3-a8f6-607bb7b91c9b
+ - Formatting Data with Angular Pipes
+    - https://app.pluralsight.com/ilx/video-courses/d5d30ea4-0af1-447a-b13a-e60a095337a6/4623aa46-bc16-4394-b680-a6c9ce70f48e/f55790da-9039-47ef-a6f2-c5a191346383
 
 Module 5: Styling Angular Components
 
